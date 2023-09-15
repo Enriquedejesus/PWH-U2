@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+            <label for="txtPromesaResolve">promesa resuelta</label>
+            <input type="text" id="txtPromesaResolve">
+            <br>
+            <label for="txtPromesaReject">promesa rechazada</label>
+            <input type="text" id="txtPromesaReject">
+          
+    </div>  
+    <button type="submit" id="btnPromesaReject">reject</button>
+    <button type="submit" id="btnPromesaResolve">resolve</button>
+    
+
+    <script>
+        
+        //Dos botones para que con uno mande el resolve y otro cel reject 
+        // division en una sola promesa 
+
+
+        const txtPromesaResolve =
+            document.getElementById("txtPromesaReject");
+        const txtPromesaReject =
+            document.getElementById("txtPromesaReject")
+        
+        let promesa = new Promise(function(resolve,reject){
+            setTimeout(() => 
+                reject("promesa correctamente"),3000);
+            });
+        promesa.then(
+            result => txtPromesaResolve.value=result,
+            error => alert("error")
+        );
+
+        
+    </script>
+
+     
+</body>
+</html>

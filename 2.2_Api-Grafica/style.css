@@ -1,0 +1,31 @@
+
+.boton {
+    align-items: center;
+
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #1976D2;
+}
+
+/* Estilos para la etiqueta de consultas */
+.contador {
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    padding:10px 20px;
+}
+
+
