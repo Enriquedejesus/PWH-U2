@@ -6,8 +6,8 @@ const data = {
         label: 'Género',            
         data: contadorGenero,         
         backgroundColor: [          
-            'rgba(54, 162, 235, 0.2)',  
-            'rgba(255, 99, 132, 0.2)'  
+            'rgba(25, 152, 235, 0.2)',  
+            'rgba(255, 120, 105, 0.2)'  
         ],
         borderColor: [              
             'rgb(54, 162, 235)',     
